@@ -5,7 +5,7 @@ while (i <= 100) {
 	var j = 2;
 	var simple = 1; // 1 = true
 	while (j < i) { //   while(j <= 9){
-		if (i % j == 0) { //     if(i % j == 0 && i != j){
+		if (i % j == 0) { //     
 			simple = 0; // 0 = false
 			break;
 		}
